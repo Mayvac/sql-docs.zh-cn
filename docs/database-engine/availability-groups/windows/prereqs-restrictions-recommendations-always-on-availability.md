@@ -65,7 +65,7 @@ ms.locfileid: "94584076"
 -   **足够的磁盘空间：** 服务器实例在其上承载可用性副本的每个计算机都必须为该可用性组中的所有数据库拥有足够的磁盘空间。 请记住，在主数据库增长时，其相应的辅助数据库也增长相同量。  
   
 ###  <a name="permissions-windows-system"></a><a name="PermissionsWindows"></a> 权限（Windows 系统）  
- 若要管理 WSFC，用户必须是每个群集节点上的系统管理员。  
+ 若要管理 WSFC，用户必须是每个群集节点上的系统管理员。且密码不能为空。  
   
  有关用于管理群集的帐户的详细信息，请参阅[附录 A：故障转移群集要求](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd197454(v=ws.10))。  
   
